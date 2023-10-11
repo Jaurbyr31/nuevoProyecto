@@ -1,0 +1,40 @@
+<ion-header >
+  <ion-toolbar>
+    <div id="header" class="centered-container">
+      <h3> Iumaco </h3>
+      <div id="logo"><img src="./assets/icon/logito.ico" alt="img logo"></div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <div id="cuerpo">
+    <div id="Conecciones" class="centered-containers">
+      <hr>
+      <a href="https://oferta.senasofiaplus.edu.co/sofia-oferta/"><img src="./assets/SofiaPlus.png" alt="Sofiaplus"></a>
+      <a href="https://sena.territorio.la/index.php?login=true#"><img src="./assets/Territorium.png" alt="Territorium"></a>
+      <hr>
+    </div>  
+    <div id="formulario">
+      <form (ngSubmit)="login()">
+        <ion-item>
+          <ion-label position="floating"></ion-label>
+          <ion-input type="text" [(ngModel)]="username" name="username" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Contraseña:</ion-label>
+          <ion-input type="password" [(ngModel)]="password" name="password" required></ion-input>
+        </ion-item>
+
+        <button type="submit" class=""> INICIAR  </button>
+      </form>
+    </div>
+
+    
+
+  </div>
+
+</ion-content>
+

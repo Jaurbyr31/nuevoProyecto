@@ -1,0 +1,46 @@
+//encabezado
+.pop{
+  --background: rgb(57, 169, 0);
+  
+}
+
+#logo img{
+  height: 50px;
+  padding-right: 40px;
+  padding-left: 10px;
+}
+
+#cerrarSesion {
+  text-align: right;
+  padding: 10px;
+  padding-right: 8%;
+}
+
+.centered-containers {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  background-color:rgb(57, 169, 0) ;
+}
+
+#rutasFormularios {
+  background-color: tran;
+  padding: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.oo{
+background-color: rgb(57, 169, 0);
+ margin: 30px;
+ text-align: center;
+ border: 2px solid rgb(7, 0, 0);
+ border-radius: 30px;
+ width: 300px;
+ height: 300px;
+}
+
+
+

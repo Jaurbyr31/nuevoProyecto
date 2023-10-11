@@ -1,0 +1,96 @@
+// header
+#header {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#logo img{
+  height: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+//cuerpo
+.centered-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 10px;
+}
+
+#botonesRutas {
+  text-align: right;
+  padding-right: 10px;
+  display: flex;
+}
+#formulario{
+  padding-top: 50px;
+}
+#formularioLlamadoAtencion {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #d9e16a;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+select, textarea {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #0004fd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #eeff00;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para el ion-content */
+ion-content.centered-container {
+  --background: url('https://img.freepik.com/premium-photo/yellow-balls-with-smiley-face-middle-them-generative-ai_958165-26633.jpg?w=740') no-repeat center center / cover;
+}
+
+.cuadro{
+  border-radius: 5px;
+}
+
+pre{
+  color: black;
+}

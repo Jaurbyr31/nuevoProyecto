@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-item id="header" class="centered-containers">
+      <h3> Iumaco </h3>
+      <div id="logo"><img src="./assets/icon/logito.ico" alt="img logo"></div>
+      
+      <div id="cerrarSesion" class="custom-button" slot="end">
+        <ion-button (click)="volver()">Volver</ion-button>
+        <ion-button (click)="salirPagina()">Cerrar sesión</ion-button>
+      </div>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="titleX">
+    <h2>lista de aprendices citados</h2>
+  </div>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Nombre del aprendiz</ion-card-title>
+      <ion-card-subtitle>correro SoySena del aprendiz</ion-card-subtitle>
+      <ion-card-subtitle>Numero de identidad del aprendiz</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      nota del instructor para citarlo
+    </ion-card-content>
+    <ion-item>
+      <ion-button slot="start">citar</ion-button>
+      <ion-button slot="end">cancelar</ion-button>
+    </ion-item>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,75 @@
+// header
+#header {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#logo img{
+  height: 50px;
+  padding-right: auto;
+  padding-left: auto;
+}
+
+//cuerpo
+.centered-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 10px;
+}
+
+#botonesRutas {
+  text-align: right;
+  padding-right: 10px;
+  display: flex;
+}
+
+#formulario{
+  padding-top: 50px;
+}
+
+#formularioFelicitar {
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #90e7a6;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #0004fd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #00ff11;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para el ion-content */
+ion-content.centered-container {
+  --background: url('https://img.freepik.com/fotos-premium/niebla-manana-densa-selva-tropical-kaeng-krachan-tailandia_38810-1503.jpg?w=740') no-repeat center center / cover;
+}
+
+.cuadro{
+  border-radius: 5px;
+}
+
+pre{
+  color: white;
+}

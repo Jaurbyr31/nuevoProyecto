@@ -1,0 +1,30 @@
+// header
+#header {
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+#logo img{
+    height: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+  
+//cuerpo
+.centered-containers {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#cerrarSesion {
+    text-align: right;
+    padding: 10px;
+}
+
+ion-content {
+    /* Define el degradado como fondo */
+    --background: linear-gradient(to bottom, #fbff00, #ff6600); 
+}
+
+#titleX, ion-card-title, #linkCorreo {
+    text-align: center;
+}

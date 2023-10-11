@@ -1,0 +1,30 @@
+// header
+#header{
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+#logo img{
+    height: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#cerrarSesion {
+    display: flex;
+}
+  
+//cuerpo
+.centered-containers {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+ion-content {
+    /* Define el degradado como fondo */
+    --background: linear-gradient(to bottom, #00ffc8, #33cc33); /* Azul claro a azul */
+    /* Ajusta otros estilos según tus necesidades */
+}
+  
+  
+  
