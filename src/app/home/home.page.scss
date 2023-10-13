@@ -1,7 +1,6 @@
 //encabezado
-.pop{
-  --background: rgb(57, 169, 0);
-  
+#header {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #logo img{
@@ -20,9 +19,21 @@
   display: flex;
   align-items: center;
   padding-left: 10px;
-  background-color:rgb(57, 169, 0) ;
 }
 
+/* Estilos para el ion-content */
+ion-content.centered-container {
+  --background: transparent url('https://w0.peakpx.com/wallpaper/941/335/HD-wallpaper-underwater-nature-sea.jpg') no-repeat center center / cover;
+}
+ion-content.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+/* Estilos para el div #rutasFormularios */
 #rutasFormularios {
   background-color: tran;
   padding: 12%;
@@ -32,15 +43,46 @@
   flex-direction: column;
 }
 
-.oo{
-background-color: rgb(57, 169, 0);
- margin: 30px;
- text-align: center;
- border: 2px solid rgb(7, 0, 0);
- border-radius: 30px;
- width: 300px;
- height: 300px;
+/* Estilos para el div #rutas */
+#rutas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilos para los botones */
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
+//colores para los hover en lo botones
+#felicitarAprendiz:hover {
+  background-color: green;
+  color: white;
+}
 
+#llamadoAtencion:hover {
+  background-color: yellow;
+  color: black;
+}
+
+#citacionComite:hover {
+  background-color: red;
+  color: white;
+}
+
+button:active {
+  background-color: #ffffff;
+  color: #000000;
+}
